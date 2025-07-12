@@ -7,7 +7,7 @@ const AuthRoutes = () => {
     return (
         <>
             <Route element={<AuthLayout />}>
-                <Route path="/login" element={<LoginPage />} />
+                <Route path="/login" element={<LoginPage/>}/>
             </Route>
         </>
     )
