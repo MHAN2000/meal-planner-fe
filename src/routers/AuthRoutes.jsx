@@ -1,12 +1,15 @@
-import { Routes, Route } from 'react-router';
+import { Route } from 'react-router';
 import LoginPage from "../pages/auth/LoginPage.tsx";
+import AuthLayout from './../pages/auth/layouts/AuthLayout';
 
 
 const AuthRoutes = () => {
     return (
-        <Routes>
-            <Route path="/login" element={<LoginPage />} />
-        </Routes>
+        <>
+            <Route element={<AuthLayout />}>
+                <Route path="/login" element={<LoginPage />} />
+            </Route>
+        </>
     )
 }
 
