@@ -29,11 +29,13 @@ const TopBar = () => {
             },
             {
                 icon: MdOutlineShoppingCart,
-                name: 'Shopping List'
+                name: 'Shopping List',
+                path: '/shopping-list'
             },
             {
                 icon: IoSparklesOutline,
-                name: 'AI Assistant'
+                name: 'AI Assistant',
+                path: '/ai-assistant'
             }]
         , []);
 
