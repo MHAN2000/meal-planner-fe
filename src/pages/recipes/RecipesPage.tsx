@@ -3,6 +3,8 @@ import {FaPlus} from "react-icons/fa6";
 import {FaSearch} from "react-icons/fa";
 
 const RecipesPage = () => {
+  const [recipes, setRecipes] =  
+  
     return <div className={"grid grid-cols-12 gap-5 h-full"}>
         <div className={"col-span-12"}>
             <Container titleSize={"text-3xl"} bold={true} title={"My recipes"}
